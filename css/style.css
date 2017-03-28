@@ -1,0 +1,116 @@
+@charset 'UTF-8';
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html
+{
+    font-size: 80%;
+}
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 80px;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    letter-spacing: 0.1em;
+
+    color: #000000;
+    background-color: #FADBDA;
+}
+
+/* Align
+------------------------------------------------------------*/
+.text-center
+{
+    text-align: center;
+}
+
+.abel,
+.box {
+  background-image: url("../images/food-top.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+
+  }
+
+/* Contents
+------------------------------------------------------------*/
+section
+{
+    padding: 20px 0;
+}
+section .container {
+    width: 100%; 
+}
+
+#foods
+{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background-color: #4c4;
+}
+
+#foods .container
+{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.foods-box
+{
+    font-size: 19px;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 0px;
+    background-color: #fdfcf6;
+    background-size: cover;
+}
+#foods-box .button-center{
+border-radius: 5px;
+color: #00000;
+background-color: #14c0c9;
+font-size: 40px;
+}
+
+#foods i
+{
+    font-size: 45px;
+    font-size: 2.5rem;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #14c0c9;
+}
+
+#contact
+{
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+#contact .button-center{
+border-radius: 5px;
+color: #00000;
+background-color: #14c0c9;
+font-size: 40px;
+}
+@media (max-width: 768px) {
+  .box {
+      height: 250px;
+      
+  }
+  #foods .container{
+   -webkit-flex-direction:column ;
+}
+}
